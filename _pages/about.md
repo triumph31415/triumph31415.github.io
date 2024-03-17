@@ -9,7 +9,7 @@ redirect_from:
 
 I'm a fourth year undergraduate student from [School of Cyber Science and Engineering University](https://cyber.qfnu.edu.cn/index.htm), [Qufu Normal University](https://www.qfnu.edu.cn/).I am very fortunate to be advised by [Prof. Hui Song](https://cyber.qfnu.edu.cn/info/1239/2571.htm) .My research interest includes Computer Vision, Multimodal Analysis,3D mesh,Theoretical Computing,and Semantic Segmentation
 
-I am honored to have obtained the qualification to pursue graduate studies without examination in September 2023.  I will enter the [College of computer science and technology] ,[China University of Petroleum (East China)] in September 2024 and work under the guidance of [Prof. Mingwen Shao](https://computer.upc.edu.cn/2017/0313/c6287a103909/page.htm)
+I am honored to have obtained the qualification to pursue graduate studies without examination in September 2023.  I will enter the [College of computer science and technology](https://computer.upc.edu.cn/)) ,[China University of Petroleum (East China)](https://www.upc.edu.cn/) in September 2024 and work under the guidance of [Prof. Mingwen Shao](https://computer.upc.edu.cn/2017/0313/c6287a103909/page.htm)
 
 You can find my CV here: [Haoyu Zhao's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
