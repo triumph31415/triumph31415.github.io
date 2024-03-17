@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 3"
+title: "Anaysis and Policy Determination of Resource Allocation in National Reserve"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+excerpt: 'Research Focus: Utilizing the ARIMA time series model for data forecasting, this study also employs the second-order differencing method to evaluate the effects before and after the implementation of specific policies. Additionally, the project involves the use of differential equations to describe population growth trends, incorporating real-world scenarios to enhance the visualization of population changes pre- and post-policy implementation'
+date: 2023-11-02
+venue: '2023 International Conference on Ambient Intelligence, Knowledge Informatics and Industrial Electronics (AIKIIE)'
+paperurl: 'https://ieeexplore.ieee.org/document/10390120'
+citation: 'Zimu You; Yanzhen Guo; Ziqi Gong; Yiming Qin; Haoyu Zhao; Shudan Zheng'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Personal Contribution: Conducted extensive review of English literature to identify research directions and gather relevant data; participated in the drafting and revision of the paper.
