@@ -3,7 +3,7 @@ title: "Geometric-Based Passive Bearing-Only Localization Model for UAV Flight"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'Research Focus: To achieve pure azimuth passive localization, facilitating effective adjustments within UAV formations. This study, grounded in geometric principles, categorizes potential scenarios and establishes corresponding pure azimuth passive localization models, while also proposing solutions for positional adjustments.'
-date: 2010-10-01
+date: 2023-11-02
 venue: '2023 International Conference on Ambient Intelligence, Knowledge Informatics and Industrial Electronics (AIKIIE)'
 paperurl: 'https://ieeexplore.ieee.org/document/10390217'
 citation: 'Haoyu Zhao; Yiming Qin; Zimu You'
