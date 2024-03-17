@@ -13,7 +13,7 @@ I am honored to have obtained the qualification to pursue graduate studies witho
 
 You can find my CV here: [Haoyu Zhao's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
-[Email](haoyuzhao1.732@gmail.com ) / [Github](https://github.com/triumph31415)  /  [Wechat](../images/wechat.jpg)   /  [QQ](../images/QQ.jpg)
+[Email](haoyuzhao1.732@gmail.com ) / [Github](https://github.com/triumph31415)  /  [Wechat](../images/Wechat.jpg)   /  [QQ](../images/QQ.jpg)
 
 A data-driven personal website
 ======
