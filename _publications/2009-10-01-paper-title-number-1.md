@@ -9,4 +9,4 @@ venue: ' 2023 International Conference on Ambient Intelligence, Knowledge Inform
 #citation: 'Haoyu Zhao, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Personal Contribution: Through rigorous geometric derivations, this analysis categorizes various scenarios; introduces pure azimuth passive localization models, laying a theoretical foundation for UAV formation positioning; develops multiple positional adjustment schemes to meet practical in-flight requirements; conducts error analysis to assess the precision and reliability of the positioning model; and, ultimately, as the primary author, completes the initial draft of the paper.
