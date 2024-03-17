@@ -11,7 +11,9 @@ I'm a fourth year undergraduate student from [School of Cyber Science and Engine
 
 I am honored to have obtained the qualification to pursue graduate studies without examination in September 2023.  I will enter the [College of computer science and technology] ,[China University of Petroleum (East China)] in September 2024 and work under the guidance of [Prof. Mingwen Shao](https://computer.upc.edu.cn/2017/0313/c6287a103909/page.htm)
 
-[Email](haoyuzhao1.732@gmail.com ) / [Github](https://github.com/triumph31415)  /  [Wechat](../images/wechat.jpg)   /  [QQ](../images/wechat.jpg)
+You can find my CV here: [Haoyu Zhao's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+
+[Email](haoyuzhao1.732@gmail.com ) / [Github](https://github.com/triumph31415)  /  [Wechat](../images/wechat.jpg)   /  [QQ](../images/QQ.jpg)
 
 A data-driven personal website
 ======
