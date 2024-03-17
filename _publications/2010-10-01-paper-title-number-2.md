@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 2"
+title: "Geometric-Based Passive Bearing-Only Localization Model for UAV Flight"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'Research Focus: To achieve pure azimuth passive localization, facilitating effective adjustments within UAV formations. This study, grounded in geometric principles, categorizes potential scenarios and establishes corresponding pure azimuth passive localization models, while also proposing solutions for positional adjustments.'
 date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+venue: '2023 International Conference on Ambient Intelligence, Knowledge Informatics and Industrial Electronics (AIKIIE)'
+paperurl: 'https://ieeexplore.ieee.org/document/10390217'
+citation: 'Haoyu Zhao; Yiming Qin; Zimu You'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Personal Contribution: Through rigorous geometric derivations, this analysis categorizes various scenarios; introduces pure azimuth passive localization models, laying a theoretical foundation for UAV formation positioning; develops multiple positional adjustment schemes to meet practical in-flight requirements; conducts error analysis to assess the precision and reliability of the positioning model; and, ultimately, as the primary author, completes the initial draft of the paper.
