@@ -6,6 +6,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
+About me
+Name    ： 赵浩羽
+教育经历 ：
+2016-2020 山东省临沂第一中学
+2020-2024 曲阜师范大学 软件工程 学士
+2024-     中国石油大学（华东） 计算机技术 硕士
+
+微信：wxid_1bdd4yowy8qm22
+电话：（86）19553718012
+GitHub:https://github.com/triumph31415
 
 I'm a fourth year undergraduate student from [School of Cyber Science and Engineering University](https://cyber.qfnu.edu.cn/index.htm), [Qufu Normal University](https://www.qfnu.edu.cn/). I am very fortunate to be advised by [Prof. Hui Song](https://cyber.qfnu.edu.cn/info/1239/2571.htm) . During my four years of undergraduate studies, under the guidance of Professor Song, I enjoyed participating in mathematical modeling competitions and guiding my junior brothers or sisters to participate in such competitions.
 
