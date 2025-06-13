@@ -13,6 +13,7 @@ Education
 ======
 * M.S. in Shandong, China University of Petroleum, Graduated in 2027(expected)
 * B.S. in Shandong, Qufu Normal University, Graduated in 2024
+  
 Primary Awards
 ======
 * **2024年5月**: 数学建模比赛三东地区研究生组一等奖，担任队长指导，负责数学建模和写作任务。
