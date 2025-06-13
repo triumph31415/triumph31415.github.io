@@ -4,7 +4,6 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,139 +15,99 @@ author_profile: true
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
         }
         
         body {
-            background: linear-gradient(135deg, #1a2a6c, #2c3e50);
+            background-color: #f8f9fa;
             color: #333;
             line-height: 1.6;
             padding: 20px;
-        }
-        
-        .container {
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
         }
         
         header {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
             text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 5px;
-            background: linear-gradient(90deg, #3498db, #2ecc71, #e74c3c, #9b59b6);
+            margin-bottom: 40px;
+            padding: 20px 0;
+            border-bottom: 1px solid #eaeaea;
         }
         
         h1 {
             color: #2c3e50;
-            font-size: 2.8rem;
+            font-size: 2.2rem;
             margin-bottom: 10px;
-        }
-        
-        .subtitle {
-            color: #7f8c8d;
-            font-size: 1.2rem;
-            margin-bottom: 20px;
+            font-weight: 600;
         }
         
         .section {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-            transition: transform 0.3s ease;
-        }
-        
-        .section:hover {
-            transform: translateY(-5px);
+            margin-bottom: 40px;
         }
         
         .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
             color: #2c3e50;
-            font-size: 1.8rem;
+            padding-bottom: 10px;
             margin-bottom: 20px;
-            padding-bottom: 15px;
-            border-bottom: 3px solid #3498db;
+            border-bottom: 2px solid #3498db;
             display: flex;
             align-items: center;
         }
         
         .section-title i {
-            margin-right: 15px;
-            background: #3498db;
-            color: white;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            margin-right: 10px;
+            color: #3498db;
         }
         
-        .publication, .ongoing, .patent {
-            background: #f8f9fa;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-left: 4px solid #3498db;
-            transition: all 0.3s ease;
-        }
-        
-        .publication:hover, .ongoing:hover, .patent:hover {
-            background: #e3f2fd;
-            transform: translateX(5px);
+        .publication {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
         }
         
         .pub-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
             color: #2c3e50;
-            font-size: 1.3rem;
-            margin-bottom: 10px;
         }
         
         .authors {
-            color: #7f8c8d;
-            margin-bottom: 10px;
+            color: #555;
             font-style: italic;
+            margin-bottom: 10px;
+            font-size: 0.95rem;
         }
         
         .link {
             display: inline-block;
-            background: #3498db;
-            color: white;
-            padding: 8px 15px;
-            border-radius: 5px;
+            color: #3498db;
             text-decoration: none;
-            margin: 10px 0;
-            transition: background 0.3s ease;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
         }
         
         .link:hover {
-            background: #2980b9;
+            text-decoration: underline;
         }
         
         .research-focus, .personal-contribution {
             margin: 15px 0;
-            padding-left: 20px;
-            border-left: 2px solid #3498db;
         }
         
         .research-focus h4, .personal-contribution h4 {
-            color: #2c3e50;
-            margin-bottom: 8px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #444;
+            font-size: 1rem;
+        }
+        
+        .research-focus p, .personal-contribution p {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.6;
         }
         
         .ongoing-list {
@@ -156,231 +115,202 @@ author_profile: true
         }
         
         .ongoing-list li {
-            padding: 15px;
-            margin-bottom: 10px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            transition: all 0.3s ease;
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
         }
         
-        .ongoing-list li:hover {
-            background: #e3f2fd;
-            transform: translateX(5px);
-        }
-        
-        .ongoing-list i {
-            margin-right: 15px;
+        .ongoing-list li:before {
+            content: "•";
             color: #3498db;
+            position: absolute;
+            left: 0;
             font-size: 1.2rem;
         }
         
-        .patent-details {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-top: 10px;
+        .patent-item, .software-item {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
         }
         
-        .patent-type {
-            background: #e74c3c;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 5px;
+        .patent-item:before, .software-item:before {
+            content: "•";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+            font-size: 1.2rem;
+        }
+        
+        .patent-title, .software-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .patent-details, .software-details {
             font-size: 0.9rem;
-        }
-        
-        .patent-author {
-            font-weight: bold;
-            color: #2c3e50;
+            color: #666;
         }
         
         .year {
-            background: #2ecc71;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 5px;
-            font-size: 0.9rem;
-        }
-        
-        .software-list {
-            margin-top: 20px;
-        }
-        
-        .software-item {
-            background: #f8f9fa;
-            border-radius: 10px;
-            padding: 15px;
-            margin-bottom: 15px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        
-        .software-name {
-            font-weight: bold;
+            display: inline-block;
+            background: #e3f2fd;
             color: #2c3e50;
-        }
-        
-        .badge {
-            padding: 5px 12px;
-            border-radius: 20px;
+            padding: 2px 8px;
+            border-radius: 3px;
+            margin-right: 8px;
             font-size: 0.85rem;
-            font-weight: bold;
         }
         
-        .badge-author {
-            background: #9b59b6;
-            color: white;
+        .author-badge {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2c3e50;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.85rem;
         }
         
         footer {
             text-align: center;
-            color: white;
-            padding: 20px;
-            margin-top: 30px;
+            color: #777;
+            padding: 30px 0 20px;
+            margin-top: 40px;
             font-size: 0.9rem;
+            border-top: 1px solid #eaeaea;
         }
         
         @media (max-width: 768px) {
-            .section {
-                padding: 20px;
+            body {
+                padding: 15px;
             }
             
             h1 {
-                font-size: 2.2rem;
+                font-size: 1.8rem;
             }
             
-            .patent-details, .software-item {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            
-            .year, .patent-type {
-                margin-top: 10px;
+            .section-title {
+                font-size: 1.3rem;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Zimu You</h1>
-            <p class="subtitle">Academic Portfolio & Research Contributions</p>
-        </header>
+    <header>
+        <h1>Zimu You</h1>
+        <p>Academic Portfolio</p>
+    </header>
+    
+    <div class="section">
+        <h2 class="section-title"><i class="fas fa-book"></i> Publications</h2>
         
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-book"></i> Publications</h2>
+        <div class="publication">
+            <h3 class="pub-title">Geometric-Based Passive Bearing-Only Localization Model for UAV Flight</h3>
+            <p class="authors">Haoyu Zhao; Yiming Qin; Zimu You</p>
+            <a href="https://ieeexplore.ieee.org/document/10390217" class="link" target="_blank">
+                <i class="fas fa-external-link-alt"></i> IEEE Publication Link
+            </a>
             
-            <div class="publication">
-                <h3 class="pub-title">Geometric-Based Passive Bearing-Only Localization Model for UAV Flight</h3>
-                <p class="authors">Haoyu Zhao; Yiming Qin; Zimu You</p>
-                <a href="https://ieeexplore.ieee.org/document/10390217" class="link" target="_blank">View Publication</a>
-                
-                <div class="research-focus">
-                    <h4>Research Focus:</h4>
-                    <p>To achieve pure azimuth passive localization, facilitating effective adjustments within UAV formations. This study, grounded in geometric principles, categorizes potential scenarios and establishes corresponding pure azimuth passive localization models, while also proposing solutions for positional adjustments.</p>
-                </div>
-                
-                <div class="personal-contribution">
-                    <h4>Personal Contribution:</h4>
-                    <p>Through rigorous geometric derivations, this analysis categorizes various scenarios; introduces pure azimuth passive localization models, laying a theoretical foundation for UAV formation positioning; develops multiple positional adjustment schemes to meet practical in-flight requirements; conducts error analysis to assess the precision and reliability of the positioning model; and, ultimately, as the primary author, completes the initial draft of the paper.</p>
-                </div>
+            <div class="research-focus">
+                <h4>Research Focus:</h4>
+                <p>To achieve pure azimuth passive localization, facilitating effective adjustments within UAV formations. This study, grounded in geometric principles, categorizes potential scenarios and establishes corresponding pure azimuth passive localization models, while also proposing solutions for positional adjustments.</p>
             </div>
             
-            <div class="publication">
-                <h3 class="pub-title">Analysis and Policy Determination of Resource Allocation in National Reserve</h3>
-                <p class="authors">Zimu You; Yanzhen Guo; Ziqi Gong; Yiming Qin; Haoyu Zhao; Shudan Zheng</p>
-                <a href="https://ieeexplore.ieee.org/document/10390120" class="link" target="_blank">View Publication</a>
-                
-                <div class="research-focus">
-                    <h4>Research Focus:</h4>
-                    <p>Utilizing the ARIMA time series model for data forecasting, this study also employs the second-order differencing method to evaluate the effects before and after the implementation of specific policies. Additionally, the project involves the use of differential equations to describe population growth trends, incorporating real-world scenarios to enhance the visualization of population changes pre- and post-policy implementation.</p>
-                </div>
-                
-                <div class="personal-contribution">
-                    <h4>Personal Contribution:</h4>
-                    <p>Conducted extensive review of English literature to identify research directions and gather relevant data; participated in the drafting and revision of the paper.</p>
-                </div>
+            <div class="personal-contribution">
+                <h4>Personal Contribution:</h4>
+                <p>Through rigorous geometric derivations, this analysis categorizes various scenarios; introduces pure azimuth passive localization models, laying a theoretical foundation for UAV formation positioning; develops multiple positional adjustment schemes to meet practical in-flight requirements; conducts error analysis to assess the precision and reliability of the positioning model; and, ultimately, as the primary author, completes the initial draft of the paper.</p>
             </div>
         </div>
         
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-tasks"></i> Ongoing Work</h2>
+        <div class="publication">
+            <h3 class="pub-title">Analysis and Policy Determination of Resource Allocation in National Reserve</h3>
+            <p class="authors">Zimu You; Yanzhen Guo; Ziqi Gong; Yiming Qin; Haoyu Zhao; Shudan Zheng</p>
+            <a href="https://ieeexplore.ieee.org/document/10390120" class="link" target="_blank">
+                <i class="fas fa-external-link-alt"></i> IEEE Publication Link
+            </a>
             
-            <ul class="ongoing-list">
-                <li>
-                    <i class="fas fa-language"></i>
-                    <div>
-                        <strong>Identifying semantic regions on a 3D grid model through natural language descriptions</strong>
-                        <p>Developing methods to correlate natural language descriptions with 3D spatial data</p>
-                    </div>
-                </li>
-                <li>
-                    <i class="fas fa-wave-square"></i>
-                    <div>
-                        <strong>A partitioning strategy-based optimization method for multibeam survey line layout</strong>
-                        <p>Creating efficient algorithms for optimal survey line placement in multibeam applications</p>
-                    </div>
-                </li>
-                <li>
-                    <i class="fas fa-robot"></i>
-                    <div>
-                        <strong>Machine learning-based research on passive localization of unmanned aerial vehicles</strong>
-                        <p>Applying ML techniques to improve passive localization accuracy for UAVs</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-certificate"></i> Patents & Software Copyrights</h2>
-            
-            <div class="patent">
-                <h3 class="pub-title">A method, system, device, and storage medium for multi-beam survey line deployment</h3>
-                <div class="patent-details">
-                    <span class="patent-type">Invention Patent</span>
-                    <span class="year">2024</span>
-                    <span class="patent-author">Second author (mentor first author)</span>
-                </div>
+            <div class="research-focus">
+                <h4>Research Focus:</h4>
+                <p>Utilizing the ARIMA time series model for data forecasting, this study also employs the second-order differencing method to evaluate the effects before and after the implementation of specific policies. Additionally, the project involves the use of differential equations to describe population growth trends, incorporating real-world scenarios to enhance the visualization of population changes pre- and post-policy implementation.</p>
             </div>
             
-            <h3 style="margin-top: 25px; margin-bottom: 15px; color: #2c3e50;">Software Copyrights (Top 3 authors)</h3>
-            
-            <div class="software-list">
-                <div class="software-item">
-                    <span class="software-name">Elliptical industrial parameter system</span>
-                    <span class="badge badge-author">First author</span>
-                    <span class="year">2022</span>
-                </div>
-                
-                <div class="software-item">
-                    <span class="software-name">Interpolation Function Teaching System</span>
-                    <span class="badge badge-author">Second author</span>
-                    <span class="year">2022</span>
-                </div>
-                
-                <div class="software-item">
-                    <span class="software-name">Seeking an irregular force field platform</span>
-                    <span class="badge badge-author">Second author</span>
-                    <span class="year">2022</span>
-                </div>
-                
-                <div class="software-item">
-                    <span class="software-name">The solution of real high-order equations</span>
-                    <span class="badge badge-author">Third author</span>
-                    <span class="year">2022</span>
-                </div>
+            <div class="personal-contribution">
+                <h4>Personal Contribution:</h4>
+                <p>Conducted extensive review of English literature to identify research directions and gather relevant data; participated in the drafting and revision of the paper.</p>
             </div>
         </div>
-        
-        <footer>
-            <p>&copy; 2023 Zimu You | Academic Portfolio</p>
-            <p>Last updated: October 2023</p>
-        </footer>
     </div>
+    
+    <div class="section">
+        <h2 class="section-title"><i class="fas fa-tasks"></i> Ongoing Work</h2>
+        
+        <ul class="ongoing-list">
+            <li>
+                <strong>Identifying semantic regions on a 3D grid model through natural language descriptions</strong>
+                <p>Developing methods to correlate natural language descriptions with 3D spatial data</p>
+            </li>
+            <li>
+                <strong>A partitioning strategy-based optimization method for multibeam survey line layout</strong>
+                <p>Creating efficient algorithms for optimal survey line placement in multibeam applications</p>
+            </li>
+            <li>
+                <strong>Machine learning-based research on passive localization of unmanned aerial vehicles</strong>
+                <p>Applying ML techniques to improve passive localization accuracy for UAVs</p>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title"><i class="fas fa-certificate"></i> Patents</h2>
+        
+        <div class="patent-item">
+            <div class="patent-title">A method, system, device, and storage medium for multi-beam survey line deployment</div>
+            <div class="patent-details">
+                <span class="year">2024</span>
+                <span class="author-badge">Second author (mentor first author)</span>
+            </div>
+        </div>
+        
+        <h2 class="section-title" style="margin-top: 30px;"><i class="fas fa-file-code"></i> Software Copyrights</h2>
+        <p style="color: #666; font-size: 0.95rem; margin-bottom: 15px;">Only includes the top three authors in terms of ranking</p>
+        
+        <div class="software-item">
+            <div class="software-title">Elliptical industrial parameter system</div>
+            <div class="patent-details">
+                <span class="year">2022</span>
+                <span class="author-badge">First author</span>
+            </div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-title">Interpolation Function Teaching System</div>
+            <div class="patent-details">
+                <span class="year">2022</span>
+                <span class="author-badge">Second author</span>
+            </div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-title">Seeking an irregular force field platform</div>
+            <div class="patent-details">
+                <span class="year">2022</span>
+                <span class="author-badge">Second author</span>
+            </div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-title">The solution of real high-order equations</div>
+            <div class="patent-details">
+                <span class="year">2022</span>
+                <span class="author-badge">Third author</span>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Zimu You | Academic Portfolio</p>
+        <p>Last updated: October 2023</p>
+    </footer>
 </body>
 </html>
 
