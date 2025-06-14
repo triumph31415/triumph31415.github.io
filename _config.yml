@@ -63,8 +63,10 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "My Approach To Happiness"
   location         : "Shandong China"
-  employer         :       "UPC"
-
+  # employer         :   UPC  
+  employer: 
+  name: UPC
+  website: "https://computer.upc.edu.cn/"
   uri              : # URL
   email            : "haoyuzhao1.732@gmail.com.org" 
 
@@ -89,7 +91,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
 
-  zhihu            : "https://www.zhihu.com/people/mao-dun-45-74"
+  zhihu            : "mao-dun-45-74"
 
 
 # Site Settings
