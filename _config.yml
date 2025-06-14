@@ -64,9 +64,8 @@ author:
   bio              : "My Approach To Happiness"
   location         : "Shandong China"
   # employer         :   UPC  
-  employer: 
-  name: UPC
-  website: "https://computer.upc.edu.cn/"
+  employer: "[UPC](https://computer.upc.edu.cn/)"
+
   uri              : # URL
   email            : "haoyuzhao1.732@gmail.com.org" 
 
